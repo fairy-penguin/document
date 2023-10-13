@@ -125,7 +125,7 @@ $ git push origin work/start-github-pages
 
 以下画像のように、documentリポジトリの画面から上部タブ「setting」を選択し、サイドバーから「pages」を選択します。
 
-![Alt text](../images/github_pages_branch_detting.png)
+![Alt text](https://github.com/fairy-penguin/document/blob/work/start-github-pages/images/github_pages_branch_detting.png?raw=true)
 
 ここで以下の項目を設定します
 - build & deployの方法：from branch
@@ -134,12 +134,11 @@ $ git push origin work/start-github-pages
 
 今回の設定では、ここで設定したブランチへのコミットを契機に、pagesのbuildとdeploy(pages側で用意してくれるactionsのワークフロー)が走り、設定したルートディレクトリ配下にある`index.html`がWEBページとして公開されます。
 
-
 実際に、このリポジトリのactionsを見てみると、以下のようにワークフローが実行され、デプロイされていることが確認できます。
 
-![Alt text](../images/github_pages_workflow.png)
+![Alt text](https://github.com/fairy-penguin/document/blob/work/start-github-pages/images/github_pages_workflow.png?raw=true)
 
 このデプロイ結果に表示されているURLを開いてみると、きちんと`index.html`が表示され、中身の`sample.md`もみられるようになっていました。
 
-![Alt text](../images/github_pages_index.png)
-![Alt text](../images/github_pages_sample.png)
+![Alt text](https://github.com/fairy-penguin/document/blob/work/start-github-pages/images/github_pages_index.png?raw=true)
+![Alt text](https://github.com/fairy-penguin/document/blob/work/start-github-pages/images/github_pages_sample.png?raw=true)
